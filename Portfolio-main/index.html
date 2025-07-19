@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Khushboo Lokhande</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Khushboo Lokhande</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="pic" src="./assets/portfolio_pic1.png" alt="Khush profile pic">
+        </div>
+        <div class="section__text">
+            <p class="class__text__p1">Hello, I'm </p>
+            <h1 class="title">Khushboo Lokhande</h1>
+            <p class="section__text__p2">Front End and Back End Developer</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Khushboo_Lokhande_Resume_final.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/khushboo-lokhande'">
+                <img src="./assets/github-sign.png" alt="My Github Profile" class="icon"
+                    onclick="location.href='https://github.com/KhushbooLokhande'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/pfp-3.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>2+ years <br />Frontend And Backend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Diploma in Computer Tech.<br />B.E. in Computer Tech.</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hello there! This is Khushboo Lokhande currently pursuing B.E. in Computer Engineering at
+                        MET's Institute Of Engineering. I have completed my Diploma in Computer technology at
+                        Government Polytechnic Nashik in academic year 2022-23.
+                        I am an enthusiast Web developer and created many projects. I
+                        am always ready to work with my team with same energy along with good communication skills and
+                        leardership qualities.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML, CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>React js</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checked.png" alt="Experience Icon" class="icon">
+                            <div>
+                               <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.PNG" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">RFID-Based Saloon System</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/KhushbooLokhande/RFID-Based-Saloon-System'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1BTbJSHQbRRXCd3yb8tLgVO12Yrui4k7N/view?usp=drivesdk'">
+                            Video
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.PNG" alt="Project 2" class="project-img" />
+                        <img src="./assets/project-2 1.PNG" alt="Project 2" class="project-img" />
+                        <img src="./assets/project-2 2.PNG" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Grocery Store</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/KhushbooLokhande/Grocery-Ecommerce-Site'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1f_7QippfcAxtZpa6TVY9iMW_yHii8En2/view?usp=sharing'">
+                            Video
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/admin-1.PNG" alt="Project 3" class="project-img" />
+                        <img src="./assets/user.PNG" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Application Tracking System</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/KhushbooLokhande/Application-Tracking-System'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1brvwI_NH1LlO8jd_95t4qIoV4A8jk0mk/view?usp=sharing'">
+                            Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon">
+                <p><a href="mailto:khushboolokhande2004@gmail.com">mailto:khushboolokhande2004@gmail.com</a></p>
+            </div>
+                <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href=" https://www.linkedin.com/in/khushboo-lokhande">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Khushboo Lokhande. All Rights Preserved.</p>
+    </footer>
+
+    <script src="script.js" type="text/javascript" class="icon arrow" onclick="location.href='./#experience'"></script>
+</body>
+
+</html>
